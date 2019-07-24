@@ -38,4 +38,20 @@ public class ArrayElementReplaceTest {
         List actualvalue = arrayElementReplace.elementReplacer((ArrayList) fruits,"Apple","Banana");
         assertEquals(expected,actualvalue);
     }
+    @Test
+    public void givenAnArrayOfElementsShouldReturnEmptyList(){
+            List<String> fruits = new ArrayList<String>();
+
+            fruits.add("Apple");
+            fruits.add("Grape");
+            fruits.add("Melon");
+            fruits.add("Berry");
+            List actualvalue = arrayElementReplace.emptyList((ArrayList) fruits);
+        List<String> fruits1 = new ArrayList<String>();
+
+
+
+        assertEquals(fruits1,actualvalue);
+
+        }
 }
