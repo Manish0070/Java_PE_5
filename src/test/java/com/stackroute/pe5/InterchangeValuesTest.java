@@ -22,7 +22,7 @@ public class InterchangeValuesTest {
         interchangeValues = null;
     }
     @Test
-    public void givenInputMapReturnSwappingOfValues() {
+    public void givenInputMapReturnSwappingOfValues() {;
         Map<String,String> stringMap = new HashMap<>();//giving values to the exchange method
         stringMap.put("val1","java");
         stringMap.put("val2","c++");
